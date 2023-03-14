@@ -6,19 +6,16 @@ import random
 # initialize pygame modules
 pygame.init()
 
-# define colors
-white = (255, 255, 255)
-yellow = (255, 255, 102)
 BLACK = (0, 0, 0)
 RED = (213, 50, 80)
-green = (0, 255, 0)
-blue = (50, 153, 213)
+
 
 # Set the window size and title
-WINDOW_WIDTH = 500
-WINDOW_HEIGHT = 500
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 800
 window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Snake Game")
+
 
 # define font for displaying score
 font_style = pygame.font.SysFont(None, 30)
@@ -88,8 +85,8 @@ while not game_over:
         foody = round(random.randrange(0, WINDOW_HEIGHT - snake_block) / 10.0) * 10.0
         snake_length += 1
 
-    # Fill the screen with blue
-    window.fill((0, 0, 255))
+    # set the window color
+    window.fill((255, 255, 255))  # white
 
     # Draw the snake and the food
     snake_head = [x1, y1]
