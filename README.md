@@ -1,16 +1,15 @@
-# Python GitHub Sample Demo
+# Python Snake Game
 
-This is a sample Python project to demonstrate how to interact with the GitHub API using the `PyGithub` library.
+This is a simple snake game written in Python using the `Pygame` library.
 
 ## Requirements
 
 - Python 3.x
-- `PyGithub` library (`pip install PyGithub`)
+- `Pygame` library (`pip install pygame`)
 
 ## Usage
 
 1. Clone this repository:
-
 2. Install the required libraries:
 3. Set your GitHub API token as an environment variable:
 4. Run the Python script:
