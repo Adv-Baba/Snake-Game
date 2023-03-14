@@ -1,1 +1,1 @@
-# Snake-Game
+# A Snake-Game by Python
